@@ -16,7 +16,8 @@
 
 }
 *{
-  margin:0px;
+  margin:0;
+  box-sizing:border-box;
 }
 .start{
   /*background-image:-webkit-linear-gradient(yellow,green);*/
@@ -166,9 +167,9 @@ height:700px;
   font-size:50px;
   text-shadow: 2px 2px red;
 }
-.content a:visited{
+/*.content a:visited{
   color:green;
-}
+}*/
 
 
 
