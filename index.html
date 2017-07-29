@@ -4,36 +4,48 @@
   <title>
     Techno </title>
     <link href="techno.css" type="text/css" rel="stylesheet">
-  <!--  <meta charset="utf-8" />
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>-->
+    <link href='https://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=AlmendreSC' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>-->
   </head>
   <body>
-
-    <div class="start">
-      <div class="image">
-    <img src="http://orig04.deviantart.net/d4fc/f/2016/071/d/e/circuit_board_by_xxaries1970xx-d9ut9nd.jpg"/>
+    <div class="header">
+  <div class="web">
+    <h3 ><a href="https://technopark007.github.io/technopark">TECHNOPARK</a></h3>
   </div>
-
-  <div id="heading">
-    <h3 ><a href="#home">TECHNOPARK</a></h3>
-  </div>
-<div class="nav_bar">
-    <ul>
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#cnt">CONTENT</a></li>
-      <li><a href="#con">CONTACT</a></li>
-      <li><a href="">ABOUT <menuitem type="command" label="Save"></a></li>
+    <ul class="topnav" >
+      <li ><a class= "active" href="#home">HOME</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">CONTENT</a>
+        <div class="dropdown-content">
+          <a href="#">PROGRAMMING</a>
+          <a href="#">WEB DEVELOPMENT</a>
+          <a href="#">HACKING</a>
+          <a href="#">INNOVATION</a>
+          <a href="#">MOBILE ASSEMBLING</a>
+          <a href="#">ANDROID</a>
+          <a href="#">HARDWARE ASSEMBLING</a>
+          <a href="#">SOFTWARE DEVELOPMENT</a>
+          <a href="#">GAME DEVELOPMENT</a>
+        </div>
+      </li>
+      <li ><a href="#con">CONTACT</a></li>
+      <li class="right"><a href="#abt">ABOUT</a></li>
     </ul>
-  </div>
 </div>
 <div id="home">
 <div class="main">
-<h1>Technopark is a platform <br/>for the techy geeks<br/> to share their opinions</h1>
-<p></p>
-<p id="btn"><a href="#cnt">LET's BEGIN</a></p>
+<h1 class="col-6">Technopark is a platform, <br/>for the techy geeks,<br/> to share their opinions</h1>
+<p class="col-2"><a href="#cnt">LET's BEGIN</a></p>
 </div>
 </div>
-<div id="cnt">
+<!--
+<div class="dropdown">
 <div class="content">
   <h1>CONTENT</h1>
   <ul>
@@ -48,9 +60,12 @@
     <li><a href="">GAME DEVELOPMENT</a></li>
   </ul>
 </div>
-</div>
-<div id="con">
+</div>-->
+<div id="con"></div>
+<div class"row">
+<div class="col-6">
 <div class="contact">
+  <h1>Any Query Post Here...</h1>
   <form action="#">
 
     <label for="fname">First Name</label>
@@ -76,6 +91,23 @@
     <input type="submit" value="Submit">
 
   </form>
+</div>
+</div>
+
+<div class"col-6">
+  <div class="about">
+
+      <h2>Technopark</h2>
+      <h3>Vivek Singh Kushwah</h3>
+      <h3>Contact No.: +917415797981 </h3>
+      <h3>E-mail id: viveksngh443@gmail.com</h3>
+        <div id="abt"></div>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
 </div>
 </div>
 </body>
