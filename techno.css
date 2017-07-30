@@ -6,17 +6,19 @@
   margin:0;
 
 }
-.row::after{
+.row::before{
   content: "";
   clear:both;
   display:table;
 }
+
 [class*="col-"] {
     width: 100%;
-    float: left;
+    float:left;
 
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width:768px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -84,7 +86,7 @@ ul.topnav li a:active{
 ul.topnav li.right{
   float:right;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
   ul.topnav li.right,
   ul.topnav li {
     float:none;
@@ -93,7 +95,7 @@ ul.topnav li.right{
   }
 
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
   ul.topnav{position:static;}
   .web{position:static;}
   .web h3 a{letter-spacing:normal;}
@@ -115,6 +117,8 @@ ul.topnav li.right{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index:1000;
   float:none;
+  overflow-y:scroll;
+  max-height:50%;
 }
 .dropdown-content a{
   color:black;
@@ -122,6 +126,7 @@ ul.topnav li.right{
   text-decoration:none;
   display: block;
   text-align:center;
+
 }
 .dropdown-content a:hover{
   background-color: #f1f1f1;
@@ -144,11 +149,11 @@ h1.col-6{
   font-family:Sofia;
   position:relative;
   top:35%;
-  left:5%;
-  padding-left: 10px;
+  padding-left: 20px;
   margin:auto;
   display: inline-block;
 }
+/*  button lets begin
 p.col-2{
   position:relative;
   top:60%;
@@ -172,7 +177,7 @@ p.col-2 a:hover{
 }
 
 
-
+*/
 
 input[type=text], select, textarea {
     width: 100%;
@@ -199,7 +204,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 .contact h1{
-  padding:30px 30px;
+  padding:20px 20px;
   font-family:Sofia;
 
 
@@ -208,7 +213,8 @@ input[type=submit]:hover {
 .contact{
     border-radius:5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding:20px 20px;
+
 }
 
 .about{
